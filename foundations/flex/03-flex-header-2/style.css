@@ -41,6 +41,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  flex-shrink: 0;
 }
 
 a {
@@ -58,4 +59,8 @@ ul {
 
 .notifications {
   margin-left: auto;
+}
+
+.profile-image {
+  flex-shrink: 0;
 }
